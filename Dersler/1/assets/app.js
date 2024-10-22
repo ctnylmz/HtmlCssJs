@@ -1,8 +1,35 @@
-let yas = 18;
-let mezuniyet = "Lise";
+let url = "https://www.zenemedya.com";
+let youtube = "Bilgisayar Genetiği";
 
-if(yas >= 18){
-    console.log("Ehliyet alabilirsin.");
+let result;
+
+result = url.length;
+result = youtube.length;
+result = youtube.replace(" ","").length
+
+console.log(result);
+
+/* */
+result = youtube.split(" ").length
+
+console.log(result);
+
+/* */
+result = url.startsWith("https")
+
+if(result == true){
+    console.log("Bağlantı Güvenli");
 }else{
-    console.log("Ehliyet alamazsın.");
+    console.log("Bağlantı Güvenli Değil!");
 }
+
+
+/* */
+result = url.indexOf("zene")
+
+if(result > -1){
+    console.log("Bağlantı Güvenli");
+}else{
+    console.log("Bağlantı Güvenli Değil!");
+}
+
