@@ -1,0 +1,89 @@
+.container{
+    padding: 0px 105px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: initial;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.from-card{
+    width: 100%;
+    position: relative;
+  
+   
+}
+
+.create-btn{
+    position: absolute;
+    right: -10px;
+    background-color: green;
+    color: white;
+    top: 0px;
+    height: 100%;
+    z-index: 1;
+    border: none;
+    width: 60px;
+    cursor: pointer;
+    border-radius:0 10px 10px 0px;
+}
+
+.from-card input{
+    width: 400px;
+    z-index: 0;
+    padding:8px;
+    border-radius: 10px;
+
+}
+
+.not{
+    margin-top: 20px;
+}
+.clear-btns{
+    display: flex;
+    justify-content: end;
+}
+
+.clear-btn{
+    background-color: red;
+    color: white;
+    height: 100%;
+    border: none;
+    width: 60px;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+.card li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 10px 0;
+    padding: 8px 5px;
+}
+
+
+.delete-btn{
+    color: red;
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    width: 60px;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 3px;
+}

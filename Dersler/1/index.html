@@ -3,16 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Dom Uygulaması</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1 class="titles" id="tit">JavaScript Dom</h1>
-    <h1 class="titles" id="tit">JavaScript Dom</h1>
-    <h1 class="titles" id="tit">JavaScript Dom</h1>
-    <h1 class="titles" id="tit">JavaScript Dom</h1>
-    <h1 class="titles" id="tit">JavaScript Dom</h1>
-    
+    <h1 class="title">Todo List</h1>
+
+ <div class="container">
+    <div class="form">
+        <form action="#">
+            <div class="from-card">
+                <input id="todo" type="text" placeholder="Bir şeyler yazınız...">
+                <button type="sumbit" class="create-btn">Create</button>
+            </div>
+        </form>
+
+      
+    </div>
+
+    <div class="not">
+        <div class="clear-btns">
+            <button type="sumbit" class="clear-btn"  onclick="clearTodos()">Clear</button>
+        </div>
+    </div>
+
+    <ul class="card" id="todos">
+        <li>
+            <span>Boş</span>
+        </li>
+    </ul>
+ </div>
  
     <script src="assets/js/app.js"></script>
 </body>
